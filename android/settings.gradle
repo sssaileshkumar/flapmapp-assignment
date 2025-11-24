@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "CVGLAssessment"
+include ':app'
+
+def localProperties = new Properties()
+def localPropertiesFile = new File(rootDir, 'local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { stream ->
+        localProperties.load(stream)
+    }
+}
+def opencvDir = localProperties.getProperty('opencv.dir')
+if (opencvDir != null) {
+    include ':opencv'
+    project(':opencv').projectDir = new File(opencvDir + '/sdk')
+}

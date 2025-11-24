@@ -1,0 +1,56 @@
+
+[Incubating] Problems report is available at: file:///D:/Kushal/projects/flamapp/android/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle' line: 129
+
+* What went wrong:
+Could not compile build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle'.
+> startup failed:
+  build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle': 129: Unexpected character: '"' @ line 129, column 33.
+         kotlinOptions { jvmTarget = " 17\ } compileOptions {
+                                     ^
+  
+  1 error
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* Where:
+Build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle' line: 129
+
+* What went wrong:
+Could not compile build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle'.
+> startup failed:
+  build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle': 129: Unexpected character: '"' @ line 129, column 33.
+         kotlinOptions { jvmTarget = " 17\ } compileOptions {
+                                     ^
+  
+  1 error
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 7s

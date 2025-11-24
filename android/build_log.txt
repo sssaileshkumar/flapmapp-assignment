@@ -1,0 +1,481 @@
+﻿Initialized native services in: C:\Users\kusha\.gradle\native
+Initialized jansi services in: C:\Users\kusha\.gradle\native
+The client will now receive all logging from the daemon (pid: 21948). The daemon log file: C:\Users\kusha\.gradle\daemon\9.0-milestone-1\daemon-21948.out.log
+Starting 3rd build in daemon [uptime: 1 mins 59.374 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 512 MiB, non-heap usage: 30% of 384 MiB]
+Using 8 worker leases.
+Now considering [D:\Kushal\projects\flamapp\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'D:\Kushal\projects\flamapp\android\settings.gradle'.
+Projects loaded. Root project using build file 'D:\Kushal\projects\flamapp\android\build.gradle'.
+Included projects: [root project 'CVGLAssessment', project ':app', project ':opencv']
+
+> Configure project :
+Evaluating root project 'CVGLAssessment' using build file 'D:\Kushal\projects\flamapp\android\build.gradle'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'D:\Kushal\projects\flamapp\android\app\build.gradle'.
+Resolved plugin [id: 'com.android.application']
+Resolved plugin [id: 'org.jetbrains.kotlin.android']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+
+> Configure project :opencv
+Evaluating project ':opencv' using build file 'C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle81 variant
+Configure OpenCV with Kotlin
+OpenCV: 4.12.0 C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\kusha\AppData\Local\Android\Sdk
+All projects evaluated.
+Task path ':app:compileDebugKotlin' matched project ':app'
+Task name matched 'compileDebugKotlin'
+Selected primary task 'compileDebugKotlin' from project :app
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:dataBindingMergeDependencyArtifactsDebug', task ':app:generateDebugResValues', task ':app:generateDebugResources', task ':opencv:preBuild', task ':opencv:preDebugBuild', task ':opencv:generateDebugResValues', task ':opencv:generateDebugResources', task ':opencv:packageDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':opencv:processDebugNavigationResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':opencv:parseDebugLocalResources', task ':opencv:generateDebugRFile', task ':app:dataBindingGenBaseClassesDebug', task ':opencv:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:compileDebugNavigationResources', task ':app:mapDebugSourceSetPaths', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':opencv:extractDeepLinksDebug', task ':opencv:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':opencv:compileDebugLibraryResources', task ':app:processDebugResources', task ':opencv:checkKotlinGradlePluginConfigurationErrors', task ':opencv:generateDebugBuildConfig', task ':opencv:compileDebugKotlin', task ':opencv:javaPreCompileDebug', task ':opencv:compileDebugJavaWithJavac', task ':opencv:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#249,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#249,Execution worker,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#249,Execution worker,5,main]) started.
+:app:preBuild (Thread[#249,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#249,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#249,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:dataBindingMergeDependencyArtifactsDebug (Thread[#249,Execution worker,5,main]) started.
+:app:dataBindingMergeDependencyArtifactsDebug (Thread[#249,Execution worker,5,main]) started.
+
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+Caching disabled for task ':app:dataBindingMergeDependencyArtifactsDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:dataBindingMergeDependencyArtifactsDebug' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#249,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#249,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#249,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#249,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :opencv:preBuild (Thread[#249,Execution worker,5,main]) started.
+:opencv:preBuild (Thread[#249,Execution worker,5,main]) started.
+
+> Task :opencv:preBuild UP-TO-DATE
+Skipping task ':opencv:preBuild' as it has no actions.
+Resolve mutations for :opencv:preDebugBuild (Thread[#249,Execution worker,5,main]) started.
+:opencv:preDebugBuild (Thread[#249,Execution worker,5,main]) started.
+
+> Task :opencv:preDebugBuild UP-TO-DATE
+Skipping task ':opencv:preDebugBuild' as it has no actions.
+Resolve mutations for :opencv:generateDebugResValues (Thread[#253,Execution worker Thread 5,5,main]) started.
+:opencv:generateDebugResValues (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':opencv:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':opencv:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :opencv:generateDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:opencv:generateDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:generateDebugResources UP-TO-DATE
+Caching disabled for task ':opencv:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':opencv:generateDebugResources' as it is up-to-date.
+Resolve mutations for :opencv:packageDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:opencv:packageDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:packageDebugResources UP-TO-DATE
+Caching disabled for task ':opencv:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':opencv:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :opencv) (Thread[#253,Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:mergeDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:mergeDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:packageDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :opencv:processDebugNavigationResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+:opencv:processDebugNavigationResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+
+> Task :opencv:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':opencv:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':opencv:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :opencv) (Thread[#254,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+:app:processDebugNavigationResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:parseDebugLocalResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :opencv:parseDebugLocalResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+:opencv:parseDebugLocalResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+
+> Task :opencv:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':opencv:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':opencv:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :opencv:generateDebugRFile (Thread[#254,Execution worker Thread 6,5,main]) started.
+:opencv:generateDebugRFile (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':opencv:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':opencv:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :opencv) (Thread[#254,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:dataBindingGenBaseClassesDebug (Thread[#254,Execution worker Thread 6,5,main]) started.
+:app:dataBindingGenBaseClassesDebug (Thread[#254,Execution worker Thread 6,5,main]) started.
+
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+Caching disabled for task ':app:dataBindingGenBaseClassesDebug' because:
+  Build cache is disabled
+Skipping task ':app:dataBindingGenBaseClassesDebug' as it is up-to-date.
+Resolve mutations for :opencv:writeDebugAarMetadata (Thread[#254,Execution worker Thread 6,5,main]) started.
+:opencv:writeDebugAarMetadata (Thread[#254,Execution worker Thread 6,5,main]) started.
+
+> Task :opencv:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':opencv:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':opencv:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :opencv) (Thread[#254,Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#254,Execution worker Thread 6,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#254,Execution worker Thread 6,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#254,Execution worker Thread 6,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :opencv:extractDeepLinksDebug (Thread[#253,Execution worker Thread 5,5,main]) started.
+:opencv:extractDeepLinksDebug (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':opencv:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':opencv:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :opencv) (Thread[#253,Execution worker Thread 5,5,main]) started.
+Resolve mutations for :opencv:processDebugManifest (Thread[#253,Execution worker Thread 5,5,main]) started.
+:opencv:processDebugManifest (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:processDebugManifest UP-TO-DATE
+Caching disabled for task ':opencv:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':opencv:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :opencv) (Thread[#253,Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:processDebugMainManifest (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:processDebugMainManifest (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:processDebugManifest (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :opencv:compileDebugLibraryResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:opencv:compileDebugLibraryResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+
+> Task :opencv:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':opencv:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':opencv:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :opencv) (Thread[#253,Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:processDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+:app:processDebugResources (Thread[#253,Execution worker Thread 5,5,main]) started.
+Resolve mutations for :opencv:checkKotlinGradlePluginConfigurationErrors (Thread[#251,Execution worker Thread 3,5,main]) started.
+:opencv:checkKotlinGradlePluginConfigurationErrors (Thread[#251,Execution worker Thread 3,5,main]) started.
+
+> Task :opencv:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':opencv:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':opencv:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :opencv:generateDebugBuildConfig (Thread[#251,Execution worker Thread 3,5,main]) started.
+:opencv:generateDebugBuildConfig (Thread[#251,Execution worker Thread 3,5,main]) started.
+
+> Task :opencv:generateDebugBuildConfig UP-TO-DATE
+Caching disabled for task ':opencv:generateDebugBuildConfig' because:
+  Build cache is disabled
+Skipping task ':opencv:generateDebugBuildConfig' as it is up-to-date.
+Resolve mutations for :opencv:compileDebugKotlin (Thread[#249,Execution worker,5,main]) started.
+:opencv:compileDebugKotlin (Thread[#249,Execution worker,5,main]) started.
+
+> Task :opencv:compileDebugKotlin UP-TO-DATE
+Caching disabled for task ':opencv:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':opencv:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :opencv:javaPreCompileDebug (Thread[#249,Execution worker,5,main]) started.
+:opencv:javaPreCompileDebug (Thread[#249,Execution worker,5,main]) started.
+
+> Task :opencv:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':opencv:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':opencv:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :opencv:compileDebugJavaWithJavac (Thread[#255,Execution worker Thread 7,5,main]) started.
+:opencv:compileDebugJavaWithJavac (Thread[#255,Execution worker Thread 7,5,main]) started.
+
+> Task :opencv:compileDebugJavaWithJavac UP-TO-DATE
+Custom actions are attached to task ':opencv:compileDebugJavaWithJavac'.
+Caching disabled for task ':opencv:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Skipping task ':opencv:compileDebugJavaWithJavac' as it is up-to-date.
+No compile result for :opencv:compileDebugJavaWithJavac
+No compile result for :opencv:compileDebugJavaWithJavac
+Resolve mutations for :opencv:bundleLibCompileToJarDebug (Thread[#255,Execution worker Thread 7,5,main]) started.
+:opencv:bundleLibCompileToJarDebug (Thread[#255,Execution worker Thread 7,5,main]) started.
+
+> Task :opencv:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':opencv:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':opencv:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :opencv) (Thread[#255,Execution worker Thread 7,5,main]) started.
+
+> Task :app:processDebugResources
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Task ':app:processDebugResources' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:processDebugResources'.
+AAPT2 aapt2-8.13.1-13719691-windows Daemon #0: starting
+Android resource linking failed:
+process = AAPT2 aapt2-8.13.1-13719691-windows Daemon #0:
+command = C:\Users\kusha\.gradle\caches\9.0-milestone-1\transforms\1d03552462219509625672e8015e9bad\transformed\aapt2-8.13.1-13719691-windows\aapt2.exe link -I\
+        C:\Users\kusha\AppData\Local\Android\Sdk\platforms\android-34\android.jar\
+        --manifest\
+        D:\Kushal\projects\flamapp\android\app\build\intermediates\packaged_manifests\debug\processDebugManifestForPackage\AndroidManifest.xml\
+        -o\
+        D:\Kushal\projects\flamapp\android\app\build\intermediates\linked_resources_binary_format\debug\processDebugResources\linked-resources-binary-format-debug.ap_\
+        -R\
+        @D:\Kushal\projects\flamapp\android\app\build\intermediates\incremental\processDebugResources\resources-list-for-linked-resources-binary-format-debug.ap_.txt\
+        --auto-add-overlay\
+        --custom-package\
+        com.example.cvgl\
+        -0\
+        apk\
+        --output-text-symbols\
+        D:\Kushal\projects\flamapp\android\app\build\intermediates\runtime_symbol_list\debug\processDebugResources\R.txt\
+        --no-version-vectors\
+        --proguard-minimal-keep-rules\
+        --no-proguard-location-reference\
+        --emit-ids\
+        D:\Kushal\projects\flamapp\android\app\build\intermediates\stable_resource_ids_file\debug\processDebugResources\stableIds.txt
+
+> Task :app:processDebugResources FAILED
+AAPT2 aapt2-8.13.1-13719691-windows Daemon #0: shutdown
+
+[Incubating] Problems report is available at: file:///D:/Kushal/projects/flamapp/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+34 actionable tasks: 3 executed, 31 up-to-date
+Watched directory hierarchies: [D:\Kushal\projects\flamapp\android]

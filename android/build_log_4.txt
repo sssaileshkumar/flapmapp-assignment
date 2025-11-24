@@ -1,0 +1,67 @@
+
+> Configure project :opencv
+Configure OpenCV with Kotlin
+OpenCV: 4.12.0 C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\build.gradle
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :opencv:preBuild UP-TO-DATE
+> Task :opencv:preDebugBuild UP-TO-DATE
+> Task :opencv:generateDebugResValues
+> Task :opencv:generateDebugResources
+> Task :opencv:packageDebugResources
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :opencv:processDebugNavigationResources
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :opencv:parseDebugLocalResources
+> Task :opencv:writeDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :opencv:extractDeepLinksDebug
+> Task :app:checkDebugAarMetadata
+> Task :opencv:generateDebugRFile
+> Task :opencv:checkKotlinGradlePluginConfigurationErrors
+> Task :opencv:compileDebugLibraryResources
+> Task :opencv:generateDebugBuildConfig
+
+> Task :opencv:processDebugManifest
+package="org.opencv" found in source AndroidManifest.xml: C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\java\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="org.opencv" from the source AndroidManifest.xml: C:\opencv-4.12.0-android-sdk\OpenCV-android-sdk\sdk\java\AndroidManifest.xml.
+
+> Task :opencv:compileDebugKotlin FAILED
+> Task :app:mergeDebugResources
+
+[Incubating] Problems report is available at: file:///D:/Kushal/projects/flamapp/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':opencv:compileDebugKotlin'.
+> Inconsistent JVM-target compatibility detected for tasks 'compileDebugJavaWithJavac' (17) and 'compileDebugKotlin' (21).
+  
+  Consider using JVM Toolchain: https://kotl.in/gradle/jvm/toolchain
+  Learn more about JVM-target validation: https://kotl.in/gradle/jvm/target-validation 
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0-milestone-1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 51s
+26 actionable tasks: 17 executed, 9 up-to-date
